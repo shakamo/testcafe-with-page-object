@@ -1,0 +1,19 @@
+{
+  "name": "kakin-testcafe",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "test": "testcafe chrome:headless features/ -s ./screenshot"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/shakamo/testcafe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/shakamo/testcafe#readme",
+  "devDependencies": {
+    "@types/chai": "^4.0.4",
+    "testcafe": "^0.18.3"
+  }
+}
