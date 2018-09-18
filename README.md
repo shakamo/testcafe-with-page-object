@@ -1,0 +1,5 @@
+# TestCafe とPageObjectPatternを組み合わせたサンプルコード
+
+Seleniumの苦痛解消とPageObjectPatternを用いることでメンテナンス性の向上
+
+また、TypeScript なのでテキストエディタで手軽に書ける！
