@@ -10,7 +10,7 @@ class ScreenshotSupport {
     }
 
     async リサイズ() {
-        await t.resizeWindow(1020, 800)
+        await t.resizeWindow(1020, 700)
     }
 }
 export default new ScreenshotSupport()

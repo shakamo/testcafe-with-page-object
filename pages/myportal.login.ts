@@ -7,7 +7,7 @@ class Myportalメイン画面 {
     private 弥生ID = Selector('#login_id')
     private 次へ = Selector('#next_btn')
 
-    private 入力された弥生ID = Selector('#login_id_inputed')
+    private 入力された弥生ID = Selector('#login_id_inputed').innerText
     private パスワード = Selector('#password')
     private ログイン = Selector('#login_btn')
 
@@ -25,7 +25,7 @@ class Myportalメイン画面 {
     }
 
     async 入力された弥生IDが同じ(value: string) {
-        await t.expect(this.入力された弥生ID).eql('value')
+        await t.expect(this.入力された弥生ID).eql(value)
     }
 
     async パスワードを入力する(value: string) {
