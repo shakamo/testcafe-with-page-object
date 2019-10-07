@@ -3,7 +3,8 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "test": "testcafe chrome:headless features/ -s ./screenshot"
+    "test": "testcafe chrome:headless features/ -s ./screenshot",
+    "remote": "testcafe remote --qr-code features/ -s ./screenshot"
   },
   "repository": {
     "type": "git",
